@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Conmemorativa - 28 de Febrero</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">  
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<!-- Leaflet JavaScript -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+</head>
+<body class="bg-white">
+    <header id="Andalucía" class="navbar navbar-expand-lg navbar-light bg-green" role="banner">
+        <nav class="navbar navbar-expand-lg navbar-light bg-green fixed-top">
+            <div>
+                <a href="#Andalucía">
+                    <h1 class="text-white text-4xl font-bold" style="text-decoration: none;">Andalucía</h1>
+                </a>
+            </div>
+            <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span>
+                    <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="white">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"stroke="white"></path>
+                    </svg>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto text-white">
+                    <li class="nav-item active">
+                        <a href="#historia" class="text-white">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Arte , Cultura y Tradiciones" class="text-white">Arte , Cultura y Tradiciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Gastronomia" class="text-white">Gastronomia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.juntadeandalucia.es/informacion/contacto.html" class="text-white">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="relative h-screen">
+        <!-- Video de fondo -->
+        <div class="absolute inset-0">
+            <video autoplay muted loop class="w-full h-full object-cover object-center">
+                <source src="and.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="absolute inset-0 bg-gray-900 opacity-75"></div>
+        <div class="absolute inset-0 flex justify-center items-center">
+            <div class="text-center text-white">
+                <h2 class="text-3xl font-bold">Explora Andalucía</h2>
+                <p class="text-lg">Con su historia, arte y paisajes únicos, es un destino que no te puedes perder</p>
+                <a href="https://www.andalucia.org/es/inicio" class="mt-8 inline-block bg-white text-black px-6 py-2 rounded-full">Ver Más</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <main class="container mx-auto my-8">
+        <section id="historia" class="mb-16">
+            <h2 class="text-3xl font-bold">Historia de Andalucía</h2>
+            <p class="mt-4 text-lg">Andalucía tiene una historia rica y variada que abarca desde la prehistoria hasta la actualidad.</p>
+            <br>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/61DRppgwwzL._AC_SL1280_.jpg" alt="imagen 0">
+            <p class="mt-4 text-lg">Durante siglos, Andalucía ha sido un crisol de culturas y civilizaciones. La región ha experimentado numerosos momentos clave, desde la revolución del Neolítico y la llegada de la agricultura, hasta la influencia del mundo mediterráneo y la colonización de pueblos del Este. Un ejemplo notable de la historia andaluza es la civilización de Tartesos, que habitó el sur de la península ibérica durante la Edad del Bronce.</p>
+            <br>
+            <img src="https://okdiario.com/img/2017/06/22/tartessos-2.jpg" alt="Imagen 1">
+            <p class="mt-4 text-lg">El dominio romano también tuvo un papel importante en la historia de Andalucía. La Bética, como se llamaba en la antigüedad, se convirtió en una provincia exuberante que formó parte del gran mundo civilizado durante siete siglos. Durante este tiempo, Andalucía contribuyó al imperio romano con metales, vinos, aceite, trigo, filósofos, escritores y emperadores, incluyendo a Trajano y Adriano, los dos primeros emperadores nacidos fuera de la península itálica.</p>
+            <br>
+            <img src="https://www.happylowcost.com/wp-content/uploads/2020/02/Templo_romano_-_C%C3%B3rdoba_Espa%C3%B1a-1536x1152.jpg" alt="Imagen 3">
+            <img src="https://images.musement.com/cover/0001/68/thumb_67599_cover_header.jpeg" alt="Imagen 4">
+            
+            <p class="mt-4 text-lg">Más tarde, en el año 711, el Islam llegó a Andalucía y la región vivió una aventura prodigiosa. Durante ocho siglos, el Califato de Córdoba fue el estado más sofisticado de Europa, con aportaciones en agricultura, botánica, ciencia, poesía e intelecto.</p>
+            <br>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Detail_Charles_V_palace_Alhambra_Granada_Spain.jpg" alt="imagen 5">
+            <img src="https://imgs-akamai.mnstatic.com/07/e5/07e5bb7165aedd6e9bd1623ddfc3626d.jpg?quality=75&format=pjpg&fit=bounds&width=980&height=880" alt="imagen 6">
+            <img src="https://astelus.com/wp-content/viajes/27013336488_d67c7ef817_o-scaled.jpg" alt="imagen 7">
+
+
+            
+            <p class="mt-4 text-lg">La descomposición política del Islam fue aprovechada por los reinos cristianos del norte de la península, que aceleraron la Reconquista. Finalmente, en 1492, el último bastión islámico, el reino de Granada, fue conquistado por los Reyes Católicos, marcando el final de la ocupación musulmana en Andalucía. Ese mismo año, Colón partió de un puerto andaluz, Palos, en Huelva, para descubrir América.</p>
+
+            <br>
+            <img src="https://www.hdwallpapers.in/download/lighting_buildings_with_reflection_on_pond_seville_andalusia_plaza_de_espana_4k_hd_travel-1920x1080.jpg" alt="imagen 7">
+           
+
+            <p class="mt-4 text-lg">El siglo XIX y XX estuvieron marcados por la modernización, industrialización, y la integración de Andalucía en la España democrática como Comunidad Autónoma en 1981. La Junta de Andalucía se convirtió en el máximo órgano de gobierno y el Parlamento en el instrumento supremo de representación para una población que ronda los ocho millones de habitantes.</p>
+            <br>
+            <img src="
+            https://img.emg-services.net/institutes/institute11232/argentina.jpg" alt="imagen 7">
+             </section>
+             <section id="costumbres" class="mb-16">
+                <h2 class="text-3xl font-bold">Arte, Cultura y Tradiciones</h2>
+                <div class="mt-4">
+                    <div class="mb-4">
+                        <img class="w-full rounded-lg" src="https://media0.giphy.com/media/j6wM7WQXDcdu0i4JC1/giphy.gif" alt="flamenco">
+                        <p class="mt-2">La milenaria historia de Andalucía ha dejado en herencia un inmenso legado artístico. La Alhambra de Granada, la Mezquita de Córdoba o la Giralda y casco histórico de Sevilla son hitos monumentales de la Humanidad, pero en la inmensa mayoría de sus ciudades y pueblos se encuentran representados los mejores momentos de la vida artística andaluza a través de los tiempos.</p>
+                        <br>
+                        <img class="w-full rounded-lg" src="https://i.pinimg.com/originals/4c/95/95/4c9595b6a55faae5ba9f839d9d55cde7.jpg" alt="...">
+                        <p class="mt-2">La brillante arquitectura islámica, renacentista y, sobre todo, barroca de sus edificios más importantes, sus castillos, fortalezas y monasterios, diseminados por toda su superficie, completan un patrimonio de enorme trascendencia. La patria de Velázquez, Murillo y Picasso dispone de lienzos, esculturas, joyas, imágenes y restos arqueológicos que se reparten por catedrales, museos, iglesias, conventos y palacios como guardianes de un potente desarrollo artístico. En la localidad más alejada es posible encontrar un retablo de primera categoría, una obra maestra de la pintura o una pieza de la más elaborada orfebrería.</p>
+                        <br>
+                        <img class="w-full rounded-lg" src="https://images.rove.me/w_1920,q_85/ypvih7dexmvbey02umut/spain-cadiz-carnival.jpg" alt="...">
+                        <p class="mt-2">La variedad de fiestas y celebraciones en Andalucía es tan amplia como su geografía, y su calendario es una auténtica enciclopedia donde se resumen las artes y costumbres de sus pueblos.</p>
+                    </div>
+                </div>
+            </section>
+            
+        
+            <section id="Gastronomia" class="mb-16">
+                <h2 class="text-3xl font-bold">Gastronomía Andaluza</h2>
+                <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-white p-4">
+                        <img class="w-full h-full rounded-lg object-cover" src="https://www.ruralidays.com/blog/wp-content/uploads/2015/12/andalucia-gastronomy11.jpg" alt="o">
+                    </div>
+                    <div class="bg-white p-4">
+                        <p class="mt-2 text-lg">La alimentación del Mediterráneo está de moda. Productos básicos como las hortalizas, frutas, pescados y el aceite de oliva virgen se han convertido en un aliciente importante en la cocina andaluza.</p>
+                        <p class="mt-2 text-lg">Basa sus platos en las materias primas de su región, pudiendo degustar platos de pescado en las provincias costeras y platos de carne en las de interior. La enorme variedad de frutas estará presente en todos ellos, quizás la única diferencia sea el toque personal que cada pueblo otorga a sus platos típicos.</p>
+                        <div class="bg-white p-2">
+                            <img class="rounded-lg" src="https://www.65ymas.com/uploads/s1/17/93/39/espetos-sardinas-malaga.jpeg" alt="o">
+                        </div>   
+                        <p class="mt-2 text-lg">La gastronomía andaluza tiene profundas huellas de la cocina árabe de al-Ándalus. Su refinamiento transformó muchas costumbres.</p>
+                        <p class="mt-2 text-lg">Los potajes de legumbres y verduras y los guisos de caza, junto a las formas de preparar el pescado configuran la esencia de esta cocina.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <h2 class="text-3xl font-bold">Explorando la región</h2>
+                <br>
+        <section id="mapa" class="mb-16">   
+             <div id="map"></div>
+             
+            <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+        </section>
+    
+    </main>
+    
+    <script src="script.js"></script>
+    <footer>
+        <p>Developed by</p><a href="https://github.com/Mario-conf" target="_blank"> Mario.conf</a>
+      </footer>
+</body>
+</html>
