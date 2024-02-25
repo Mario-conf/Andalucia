@@ -1,4 +1,4 @@
-# Web Conmemorativa - Andalucía
+# Andalusia
 
 ---
 
@@ -6,7 +6,7 @@
 
 ### Introduction
 
-Welcome to the commemorative website of Andalucía! In this digital space, you will find a selection of content related to the rich culture, history, and traditions of Andalucía. We invite you to explore and discover everything that Andalucía has to offer.
+Welcome to the commemorative website of Andalusia! In this digital space, you will find a selection of content related to the rich culture, history, and traditions of Andalucía. We invite you to explore and discover everything that Andalucía has to offer.
 
 ### How to Explore
 
@@ -25,7 +25,7 @@ Follow our journey through the most beautiful corners of Andalucía. Connect wit
 
 ---
 
-# Web Conmemorativa - Andalucía
+# Andalucía
 
 ---
 
